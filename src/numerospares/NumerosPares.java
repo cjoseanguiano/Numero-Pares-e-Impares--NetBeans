@@ -35,7 +35,7 @@ public class NumerosPares {
                 }
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Verifica el valor que ingresaste");
+            JOptionPane.showMessageDialog(null, "Verifica el valor que ingresaste" + e.getMessage());
         }
 
     }
